@@ -71,7 +71,15 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      theme: {
+        extend:{
+          backgroundImage: {
+            "bgImg": "url('./src/assets/uploads/2024/03/main.jpeg')"
+          }
+        }
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
 }
+// import img from "./src/assets/uploads/2024/03/main.jpeg"
